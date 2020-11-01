@@ -1,3 +1,7 @@
+# подключение библиотеки чтения Екселя
+library(readxl)
+# подключение библиотеки восстановения данных
+library(imputeTS)
 rwater <- read_excel("F:/My computer/Мои документы/ХНУ Каразина/Туманов А/rwater.xls")
 View(rwater)
 plot(rwater)
